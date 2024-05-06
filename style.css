@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background-color:steelblue;
+}
+header {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    color: blue;
+}
+header ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+header ul li a:hover {
+    color: blue;
+}
+.box1 {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.box1 h4 {
+   font-size: 50px;
+   color:blue;
+   margin-bottom: 20px; 
+}
+.box1 p {
+    font-size: 20px;
+    line-height: 22px;
+}
+button {
+    background-color:orangered;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    color: white;
+    position: relative;
+    top: 60px;
+}
+.image {
+    width: 35%;
+    height: 70%;
+    position:relative;
+    bottom: 450px;
+    left: 800px;
+}
+.image img {
+    height: 100%;
+    position: absolute;
+}
+.block {
+    display: grid;
+    grid-template-columns:17% 17% 17%;
+    height: 100vh;
+    gap: 10px;
+    grid-template-rows: 20% 20%;
+    
+}
+.boxx1 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 30px;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    left:500px;
+    bottom: 550px;
+}
+.boxx2 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 30px;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    left:500px;
+    bottom: 550px;
+    
+}
+.boxx3 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 30px;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    left:500px;
+    bottom: 550px;
+}
+.boxx1:hover {
+    background-color: orangered;
+}
+.boxx2:hover {
+    background-color: orangered;
+}
+.boxx3:hover {
+    background-color: orangered;
+}
+nav {
+    margin-left: 8%;
+    margin-top: 13%;
+    position: relative;
+    bottom: 1300px;
+}
+nav h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+nav p {
+    font-size: 20px;
+    line-height: 22px;
+}
+.buttonn {
+    background-color:blue;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    color: white;
+    position: relative;
+    top: 60px;
+}
+.rasm {
+    width: 35%;
+    height: 50%;
+    position:relative;
+    bottom: 1600px;
+    left: 900px;
+}
+.divv {
+    margin-left: 8%;
+    margin-top: 13%;
+    position: relative;
+    bottom: 1700px;
+}
+.divv h1 {
+    font-size: 50px;
+    color: green;
+}
+.divv input {
+    width: 400px;
+    height: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+}
+.divv button {
+    right: 410px;
+    top: 100px;
+}
+.map {
+    width: 35%;
+    height: 50%;
+    position:relative;
+    bottom: 2050px;
+    left: 900px;
+}
